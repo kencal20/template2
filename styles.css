@@ -1,0 +1,52 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+background-color:rgb(5, 16, 20)  ;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}t
+section:nth-child(1){
+    color:white
+}
+section:nth-child(2){
+    color:rgb(5, 16, 20) ;
+    background: white;
+}
+section:nth-child(3){
+    color:white;
+
+}
+
+section:nth-child(4){
+    color:rgb(5, 16, 20) ;
+    background-color: white;
+}
+section:nth-child(5){
+    color: white;
+}
+
+section .container{
+    margin: 100px;
+}
+section h1 {
+    font-size: 60px;
+}
+
+section h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+section .cards{
+    display: flex;
+}
